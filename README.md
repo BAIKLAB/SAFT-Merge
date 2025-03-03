@@ -1,6 +1,6 @@
 ## [Mitigating Parameter Interference in Model Merging via Sharpness-Aware Fine-Tuning](https://openreview.net/forum?id=eaTqsptDPL)
 
-> [Yeoreum Lee<sup>1</sup>](https://github.com/leeyeoreum02), Jinwook Jung<sup>1</sup>, [Sungyong Baik<sup>1,2&dagger;</sup>](https://dsybaik-hy.github.io), <br>
+> [Yeoreum Lee](https://github.com/leeyeoreum02)<sup>1</sup>], Jinwook Jung<sup>1</sup>, [Sungyong Baik](https://dsybaik-hy.github.io)<sup>1,2&dagger;</sup>, <br>
 > <sup> &dagger; corresponding authors </sup> <br>
 > <sup>1</sup>Dept. of Artificial Intelligence, Hanyang University, <sup>2</sup>Dept. of Data Science, Hanyang University
 
