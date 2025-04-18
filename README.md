@@ -13,8 +13,8 @@ Large-scale deep learning models with a pretraining-finetuning paradigm have led
 
 
 ### Updates
-* (2025/04/18): Our code is now available!
-* (2025/01/22): Our paper has been accepted at [ICLR 2025](https://iclr.cc/)🎉
+* 2025/04/18: Our code is now available!
+* 2025/01/22: Our paper has been accepted at [ICLR 2025](https://iclr.cc/)🎉
 
 
 ## Acknowledgement
