@@ -15,6 +15,7 @@ Please download the checkpoints of CLIP ViT-B/{16, 32} models at [here](https://
 │   ├── dataset_2
 │   ...
 │   ├── dataset_T
+│   ├── linear_zeroshot.pt
 │   └── zeroshot.pt
 ├── model_2
 ...
