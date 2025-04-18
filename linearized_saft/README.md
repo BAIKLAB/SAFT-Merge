@@ -1,10 +1,8 @@
 ## Datasets
----
 Please follow the instructions in [this issue](https://github.com/mlfoundations/task_vectors/issues/1) to download the datasets (e.g., Cars, DTD, EuroSAT, GTSRB, MNIST, RESISC45, SUN397, SVHN).
 
 
 ## Checkpoints
----
 Please download the checkpoints of CLIP ViT-B/{16, 32} models at [here](https://drive.google.com/file/d/1cYrCDzkDSZ39tN7Fr8S9mB3jG3L4A5Z1/view?usp=drive_link).
 ```sh
 /path/to/checkpoints
@@ -25,7 +23,6 @@ Please download the checkpoints of CLIP ViT-B/{16, 32} models at [here](https://
 
 
 ## Dependencies
----
 ### 0. Install Poetry (w/ Python 3.8)
 Please follow the instructions in https://python-poetry.org/docs/.
 
@@ -36,7 +33,6 @@ poetry install
 ```
 
 ## Training
----
 ### 1. Linear + SGD fine-tuning
 ```sh
 poetry run python src/finetune.py \
@@ -59,7 +55,6 @@ poetry run python src/finetune.py \
 ```
 
 ## Evaluation of fine-tuned models
----
 ```sh
 poetry run python src/eval.py \
     --model ViT-B-32 \
@@ -71,7 +66,6 @@ poetry run python src/eval.py \
 ```
 
 ## Merging fine-tuned models
----
 ```sh
 poetry run python src/eval.py \
     --model ViT-B-32 \
