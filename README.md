@@ -17,16 +17,32 @@ Large-scale deep learning models with a pretraining-finetuning paradigm have led
 
 
 ### Updates
-* (2025/01/22): Our paper has been accepted at [ICLR 2025](https://iclr.cc/)🎉🎉; 
+* (2025/04/18): Our code is now available!
+* (2025/01/22): Our paper has been accepted at [ICLR 2025](https://iclr.cc/)🎉
+
+
+## Acknowledgement
+Our implementation references the code below, thanks to them.
+
+- Task Arithmetic: https://github.com/mlfoundations/task_vectors
+
+- Task Arithmetic in the tangent space (FTTS): https://github.com/gortizji/tangent_task_arithmetic
+
+- Fine-Tuning Linear Layers Only Is a Simple yet Effective Way for Task Arithmetic (FTLO): https://github.com/kyrie-23/linear_task_arithmetic
+
+- DARE: https://github.com/yule-BUAA/MergeLM
+
+- Sharpness-Aware Minimization (SAM): https://github.com/davda54/sam
+
 
 ## BibTex
 ```
 @inproceedings{
-lee2025mitigating,
-title={Mitigating Parameter Interference in Model Merging via Sharpness-Aware Fine-Tuning},
-author={Yeoreum Lee and Jinwook Jung and Sungyong Baik},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=eaTqsptDPL}
+    lee2025mitigating,
+    title={Mitigating Parameter Interference in Model Merging via Sharpness-Aware Fine-Tuning},
+    author={Yeoreum Lee and Jinwook Jung and Sungyong Baik},
+    booktitle={The Thirteenth International Conference on Learning Representations},
+    year={2025},
+    url={https://openreview.net/forum?id=eaTqsptDPL}
 }
 ```
