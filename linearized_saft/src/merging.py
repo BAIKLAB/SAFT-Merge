@@ -19,7 +19,7 @@ from linearize import LinearizedImageEncoder, ReluEncoder
 
 
 DATASET_NAMES = ['Cars', 'DTD', 'EuroSAT', 'GTSRB', 'MNIST', 'RESISC45', 'SUN397', 'SVHN']
-MERGING_METHOD_NAMES = ['mask_merging', 'average_merging', 'task_arithmetic', 'fisher_merging', 'regmean_merging', 'ties_merging']
+MERGING_METHOD_NAMES = ['mask_merging', 'average_merging', 'task_arithmetic', 'ties_merging']
 
 
 set_random_seed(seed=0)
