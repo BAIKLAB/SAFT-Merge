@@ -28,6 +28,11 @@ Please download the checkpoints of CLIP ViT-B/{16, 32} models at [here](https://
 Please follow the instructions in https://python-poetry.org/docs/.
 
 You can also install Poetry within a Conda environment.
+```sh
+conda create -n <env name> python=3.8 -y
+conda activate <env name>
+pip install poetry
+```
 ### 1. Install dependencies with Poetry
 ```sh
 poetry install
